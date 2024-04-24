@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/FossoSushi/static/css/main.0bbe9a23.css",
+    "main.js": "/FossoSushi/static/js/main.b472a9a1.js",
+    "static/js/453.ed3810f9.chunk.js": "/FossoSushi/static/js/453.ed3810f9.chunk.js",
+    "static/media/Hero.jpg": "/FossoSushi/static/media/Hero.22994ada5dd7da17699c.jpg",
+    "static/media/Samurai.jpg": "/FossoSushi/static/media/Samurai.4b3d2b74536900f349fe.jpg",
+    "static/media/Tempura ELL.jpg": "/FossoSushi/static/media/Tempura ELL.4997aa5e7f635472b332.jpg",
+    "static/media/Bonito.jpg": "/FossoSushi/static/media/Bonito.dcb17890b586f5f8e1d9.jpg",
+    "static/media/GreenDragon.jpg": "/FossoSushi/static/media/GreenDragon.919ffc9f287a93d505d0.jpg",
+    "static/media/Smoked.jpg": "/FossoSushi/static/media/Smoked.4a12a9e5315d46788bf0.jpg",
+    "static/media/Tiger.jpg": "/FossoSushi/static/media/Tiger.dbfeddbceec581fc2e33.jpg",
+    "static/media/Sushi.jpg": "/FossoSushi/static/media/Sushi.2c9c890fb219b692f8f4.jpg",
+    "static/media/Mango.png": "/FossoSushi/static/media/Mango.d19ca616bc29aab1f67c.png",
+    "static/media/California.jpg": "/FossoSushi/static/media/California.34a4c48fe0336c7154da.jpg",
+    "static/media/PhiladelphiaS.jpg": "/FossoSushi/static/media/PhiladelphiaS.b053847eb18da254fa97.jpg",
+    "static/media/HotSalmon.jpg": "/FossoSushi/static/media/HotSalmon.12e6125f9ebe09ef7bac.jpg",
+    "static/media/Tempura Shrimp-Salmon.jpg": "/FossoSushi/static/media/Tempura Shrimp-Salmon.a02e3ae88ea3dcf2bf88.jpg",
+    "static/media/FutomakiSalmon.jpg": "/FossoSushi/static/media/FutomakiSalmon.62ae1ada2cd25c01a840.jpg",
+    "static/media/GoldDragon.jpg": "/FossoSushi/static/media/GoldDragon.3e95b98763d830e83ab4.jpg",
+    "static/media/Tempura Salmon.jpg": "/FossoSushi/static/media/Tempura Salmon.4ace7c31a572bc2ecf41.jpg",
+    "static/media/SmellPh.jpg": "/FossoSushi/static/media/SmellPh.46e509a2e6a8f8e98f22.jpg",
+    "static/media/Tuna.jpg": "/FossoSushi/static/media/Tuna.9f4be993651b01a9e87d.jpg",
+    "static/media/Makisalmon.jpg": "/FossoSushi/static/media/Makisalmon.5d26faadb8dad9c73fcb.jpg",
+    "static/media/Tempura Shrimp.jpg": "/FossoSushi/static/media/Tempura Shrimp.0ee26933e874d971a550.jpg",
+    "static/media/Makimango.jpg": "/FossoSushi/static/media/Makimango.f9014f9b778b883133fe.jpg",
+    "static/media/Makiavocado.jpg": "/FossoSushi/static/media/Makiavocado.a5c8242acd2ec174bdb3.jpg",
+    "static/media/Makicucumber.jpg": "/FossoSushi/static/media/Makicucumber.aaf5082c36753b98e014.jpg",
+    "static/media/Coca-Cola.jpg": "/FossoSushi/static/media/Coca-Cola.44bfd281ba4c407d711c.jpg",
+    "static/media/Sprite.jpg": "/FossoSushi/static/media/Sprite.2f684f779a5d3b0ec314.jpg",
+    "static/media/OrangeJuice.jpg": "/FossoSushi/static/media/OrangeJuice.41d5fe2fd5ece2ea013c.jpg",
+    "index.html": "/FossoSushi/index.html",
+    "static/media/Down.svg": "/FossoSushi/static/media/Down.804e849e82b12430abec.svg",
+    "main.0bbe9a23.css.map": "/FossoSushi/static/css/main.0bbe9a23.css.map",
+    "main.b472a9a1.js.map": "/FossoSushi/static/js/main.b472a9a1.js.map",
+    "453.ed3810f9.chunk.js.map": "/FossoSushi/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bbe9a23.css",
+    "static/js/main.b472a9a1.js"
+  ]
+}
