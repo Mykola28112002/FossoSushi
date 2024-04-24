@@ -1,0 +1,106 @@
+.setsList {
+    color: #fff;
+    background: #103533;
+    padding: 0 16px;
+
+    .title {
+        font-size: 46px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .setsUl {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .item {
+            color: #fff;
+            border-radius: 24px;
+            border: 3px solid #000000;
+            overflow: hidden;
+            background: #fff;
+            color: #000000;
+            font-size: 20px;
+
+            img {
+                width: 100%;
+                height: 300px;
+                margin-bottom: -5px;
+            }
+
+            .imgBackground {
+                position: relative;
+                height: 300px;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.7);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .text {
+                    font-size: 22px;
+                    font-weight: 200;
+                    color: #BBC3C3;
+                }
+            }
+
+            .praysBox {
+                display: flex;
+                color: #DA5541;
+                font-size: 22px;
+                font-weight: 600;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px 0 10px;
+
+                .name {
+                    margin-right: 30px;
+                }
+            }
+
+            .contentBox {
+                padding: 13px 13px 25px 13px;
+
+                .byBox {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    font-size: 20px;
+                    font-weight: 200;
+                }
+
+                .btnBox {
+                    display: flex;
+
+                    .btn {
+                        margin-left: auto;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .contentNullBox {
+        padding: 60px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 24px;
+
+        h2 {
+            color: #DA5541;
+            font-size: 24px;
+            font-weight: 200;
+            text-align: center;
+        }
+    }
+}

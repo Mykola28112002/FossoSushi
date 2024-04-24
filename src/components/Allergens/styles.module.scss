@@ -1,0 +1,22 @@
+.Allergens {
+    padding-top: 23px;
+    background: #103533;
+    color: #fff;
+    padding: 40px 16px 200px 16px;
+
+    .title {
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .textList {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        li {
+            font-size: 20px;
+        }
+    }
+}
