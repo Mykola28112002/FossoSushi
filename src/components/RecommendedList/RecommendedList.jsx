@@ -1,8 +1,16 @@
 import Sushi from '../../assets/img/Sushi.jpg';
 import css from './styles.module.scss';
 import { Majesticons } from '../../assets/svgComponents/Majesticons';
+import { useGlobalState } from '../../GlobalStateContext/GlobalStateContext';
 
 const RecommendedList = ({ recomList }) => {
+    const { globalState, setGlobalState } = useGlobalState();
+    const handleAddOrder = (e) => {
+        setGlobalState(prevState => ({
+            ...prevState,
+            orderArr: [...recomList, {...e, quantity: 1 }]
+        }));
+    };
     return (
         <div className={css.setsList}>
             <ul className={css.setsUl}>
@@ -29,6 +37,13 @@ const RecommendedList = ({ recomList }) => {
                             <div className={css.btnBox}>
                                 <button className={css.btn}>
                                     <Majesticons fill='#fff' />
+                                </button>
+                                <button
+                                    className={css.btnBy}
+                                    onClick={() => handleAddOrder(a)}
+                                    disabled={recomList.some(item => item.id === a.id)}
+                                >
+                                    <Majesticons fill='#000' />
                                 </button>
                             </div>
                         </div>
