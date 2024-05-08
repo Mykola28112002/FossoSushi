@@ -55,7 +55,7 @@ const MenuList = ({ type, title, menuList }) => {
             <h2 className={`${css.title} ${type === 'order' && css.marginNone}`}>{title}</h2>
             <ul className={css.setsUl}>
                 {menuList.length > 0 ? menuList.map((a, index) => {
-                    const { id, name, price, description, img, pcs } = a;
+                    const { id, name, price, description, img, pcs, people } = a;
                     return <li key={id} className={css.item}>
                         {img !== undefined ?
                             <img src={img} alt={img} width={'100%'}  /> :
@@ -78,6 +78,7 @@ const MenuList = ({ type, title, menuList }) => {
                                 <p style={{ whiteSpace: 'pre-wrap' }}>{description}</p>
                             </div>
                             <div className={css.btnBox}>
+                                <span className={css.people}>{people}</span>
                                 {type === 'order' ? 
                                     <div className={css.btnOrderBox}>
                                         <div className={css.btnPlusBox}>
@@ -102,7 +103,6 @@ const MenuList = ({ type, title, menuList }) => {
                                     </button>
 
                                 }
-                                
                             </div>
                         </div>
                     </li>

@@ -61,18 +61,20 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 5px 20px 5px 10px;
+
                 div {
                     display: flex;
                     gap: 10px;
                     align-items: center;
                 }
+
                 span {
                     display: block;
                 }
             }
 
             .contentBox {
-                padding: 13px 13px 25px 13px;
+                padding: 13px;
 
                 .byBox {
                     display: flex;
@@ -85,14 +87,18 @@
                 .btnBox {
                     display: flex;
                     margin-top: 10px;
+                    align-items: center;
+                    justify-content: flex-end;
+
+                    .people {
+                        display: block;
+                        margin-right: 20%;
+                        color: #DA5541;
+                    }
 
                     .btnOrderBox {
                         display: flex;
                         width: 100%;
-
-                        .btnBy {
-                            margin-left: auto;
-                        }
 
                         .btnPlusBox {
                             background-color: #DA5541;
@@ -108,10 +114,6 @@
                                 color: #fff;
                             }
                         }
-                    }
-
-                    .btnBy {
-                        margin-left: auto;
                     }
 
                     .btnBy:disabled {

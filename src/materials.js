@@ -37,56 +37,64 @@ export const ArrSETS = [
       name: 'SETS ‘Phila’',
       price: '72',
       description: 'Philadephia Classic, Philadephia Smell, Philadephia Mango, Philadephia Smoked',
-      pcs: '(32pcs.)'
+      pcs: '(32pcs.)',
+      people: 'For two people'
     },
     {
       id: 2,
-      name: 'SETS ‘I end Y’',
+      name: 'SETS ‘I end U’',
       price: '76',
       description: 'Philadephia Smell, Philadephia Mango, Gold Dragon, Samurai',
-      pcs: '(32pcs.)'
+      pcs: '(32pcs.)',
+      people: 'For two people'
     },
     {
       id: 3,
       name: 'SETS ‘Family’',
       price: '100',
       description: 'Philadephia Classic, California, Green Dragon, Maki salmon, Maki mango, Hot Salmon, Tempura Shrimp',
-      pcs: '(52pcs.)'
+      pcs: '(52pcs.)',
+      people: 'For four people'
     },
     {
       id: 4,
       name: 'SETS ‘Friends’',
       price: '160',
       description: 'Philadephia Classic, Philadephia Smoked, Gold Dragon, Tiger, Tuna, Yoco, Maki ell, Tempura Salmon, Tempura Srimp',
-      pcs: '(70pcs.)'
+      pcs: '(70pcs.)',
+      people: 'For five people'
     },
     {
       id: 5,
       name: 'SETS ‘Heat’',
       price: '76',
       description: 'Philadephia Smell, Philadephia Mango, Gold Dragon, Samurai',
-      pcs: '(32pcs.)'
+      pcs: '(32pcs.)',
+      people: 'For two people'
     },
     {
       id: 6,
       name: 'Sets ‘Fosso’',
       price: '200',
       description: 'Philadephia Classic, Philadephia Smell, Gold Dragon, Yoco, California Maki mango, Maki avocado, Tuna, Ceaser, Hot Salmon, Tempura Shrimp-Salmon, Tempura Srimp, Tempura Tuna.',
-      pcs: '(100pcs.)'
+      pcs: '(100pcs.)',
+      people: 'For seven people'
     },
     {
       id: 7,
       name: 'SETS ‘Hot’',
       price: '72',
       description: 'Hot Salmon, Hot Shrimp, Hot Eel, Hot Crab.',
-      pcs: '(32pcs.)'
+      pcs: '(32pcs.)',
+      people: 'For two people'
     },
     {
       id: 8,
       name: 'SETS ‘Tempura’ ',
       price: '80',
       description: 'Tempura Salmon, Tempura Shrimp, Tempura Tuna, Tempura Ell.',
-      pcs: '(32pcs.)'
+      pcs: '(32pcs.)',
+      people: 'For two people'
     },
   ]
 export const ArrSushi = [
