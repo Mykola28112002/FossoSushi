@@ -85,6 +85,9 @@
                     .btn {
                         margin-left: auto;
                     }
+                    .btn:disabled {
+                        opacity: 0.3;
+                    }
                 }
 
             }
