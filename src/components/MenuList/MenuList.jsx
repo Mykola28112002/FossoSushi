@@ -39,8 +39,10 @@ const MenuList = ({ type, title, menuList }) => {
     const handleAddOrder = (e) => {
         setGlobalState(prevState => ({
             ...prevState,
-            orderArr: [...orderArr, {...e, quantity: 1 }]
+            orderArr: [...orderArr, { ...e, quantity: 1 }],
+            isModalByOpen: true
         }));
+        
     };
     const handleDeleteOrder = (e) => {
         const filter = orderArr.filter(a => a.id !== e.id)
@@ -77,8 +79,8 @@ const MenuList = ({ type, title, menuList }) => {
                             <div className={css.byBox}>
                                 <p style={{ whiteSpace: 'pre-wrap' }}>{description}</p>
                             </div>
-                            <div className={css.btnBox}>
-                                <span className={css.people}>{people}</span>
+                            <div className={`${type !== 'order' ? css.btnBox : css.btnBoxOrder} `}>
+                                {type !== 'order' && <span className={css.people}>{people}</span> }
                                 {type === 'order' ? 
                                     <div className={css.btnOrderBox}>
                                         <div className={css.btnPlusBox}>

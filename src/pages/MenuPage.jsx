@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import ModalMenu from '../components/ModalMenu/ModalMenu';
+import ModalBy from '../components/ModalBy/ModalBy';
 import MenuList from '../components/MenuList/MenuList';
 import Allergens from '../components/Allergens/Allergens';
 import FilterMenu from '../components/FilterMenu/FilterMenu';
@@ -14,6 +15,7 @@ function MenuPage() {
   return (
     <>
       <ModalMenu />
+      <ModalBy />
       <Header />
       <FilterMenu />
       <MenuList title={'SETS'} menuList={ArrSETS} />

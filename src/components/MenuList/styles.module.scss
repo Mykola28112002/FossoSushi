@@ -29,7 +29,9 @@
                 height: 300px;
                 margin-bottom: -5px;
             }
-
+            .byKlickBox {
+                
+            }
             .imgBackground {
                 position: relative;
                 height: 300px;
@@ -99,6 +101,43 @@
                     .btnOrderBox {
                         display: flex;
                         width: 100%;
+
+                        .btnPlusBox {
+                            background-color: #DA5541;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 10px;
+                            font-size: 20px;
+
+                            button {
+                                padding: 5px 20px;
+                                font-size: 30px;
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    .btnBy:disabled {
+                        opacity: 0.3;
+                    }
+                }
+                .btnBoxOrder {
+                    display: flex;
+                    margin-top: 10px;
+                    align-items: center;
+                    justify-content: flex-end;
+
+                    .people {
+                        display: block;
+                        margin-right: 20%;
+                        color: #DA5541;
+                    }
+
+                    .btnOrderBox {
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
 
                         .btnPlusBox {
                             background-color: #DA5541;

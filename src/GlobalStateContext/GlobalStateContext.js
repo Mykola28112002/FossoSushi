@@ -10,6 +10,7 @@ export const GlobalStateProvider = ({ children }) => {
         const savedState = localStorage.getItem('globalState');
         return savedState ? JSON.parse(savedState) : {
             isModalOpen: false,
+            isModalByOpen: false,
             orderArr: []
         };
     });

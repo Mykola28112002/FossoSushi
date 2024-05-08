@@ -8,7 +8,8 @@ const RecommendedList = ({ recomList }) => {
     const handleAddOrder = (e) => {
         setGlobalState(prevState => ({
             ...prevState,
-            orderArr: [...prevState.orderArr, {...e, quantity: 1 }]
+            orderArr: [...prevState.orderArr, { ...e, quantity: 1 }],
+            isModalByOpen: true
         }));
         
     };
