@@ -41,7 +41,7 @@ const FilterMenu = ({type, selectedOption, setSelectedOption}) => {
                 </div>
             }
             <div className={css.deliveryTime}>
-                <p>Delivery is available from 3pm. to 10pm.</p>
+                <p>Delivery is available from 2:30pm. to 9pm.</p>
             </div>
         </div>
     );

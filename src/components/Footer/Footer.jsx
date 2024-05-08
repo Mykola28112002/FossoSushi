@@ -43,10 +43,14 @@ const Footer = () => {
           </li>
           <li>
             <span>Friday</span>
-            <span>2pm.-9pm.</span>
+            <span>2pm.-10pm.</span>
           </li>
           <li>
             <span>Saturday</span>
+            <span>2pm.-10pm.</span>
+          </li>
+          <li>
+            <span>Sunday</span>
             <span>2pm.-9pm.</span>
           </li>
         </ul>

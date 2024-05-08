@@ -11,19 +11,19 @@ const Delivery = () => {
                 <Shop/>
                 <h2>Working hours:</h2>
                 <p>From Tuesday to Sunday</p>
-                <span>2pm.-9pm.</span>
+                <span>2pm.-10pm.</span>
             </li>
             <li>
                 <Car/>
                 <h2>DELIVERY</h2>
                 <p>From Tuesday to Sunday</p>
-                <span>3pm.-9pm.</span>
+                <span>3pm.-10pm.</span>
             </li>
             <li>
                 <Solar/>
                 <h2>PICKUP</h2>
                 <p>From Tuesday to Sunday</p>
-                <span>3pm.-9pm.</span>
+                <span>3pm.-10pm.</span>
             </li>
             </ul>
         </section>

@@ -36,49 +36,57 @@ export const ArrSETS = [
       id: 1,
       name: 'SETS ‘Phila’',
       price: '72',
-      description: 'Philadephia Classic, Philadephia Smell, Philadephia Mango, Philadephia Smoked (32pcs.)',
+      description: 'Philadephia Classic, Philadephia Smell, Philadephia Mango, Philadephia Smoked',
+      pcs: '(32pcs.)'
     },
     {
       id: 2,
       name: 'SETS ‘I end Y’',
       price: '76',
-      description: 'Philadephia Smell, Philadephia Mango, Gold Dragon, Samurai (32pcs.)',
+      description: 'Philadephia Smell, Philadephia Mango, Gold Dragon, Samurai',
+      pcs: '(32pcs.)'
     },
     {
       id: 3,
       name: 'SETS ‘Family’',
       price: '100',
       description: 'Philadephia Classic, California, Green Dragon, Maki salmon, Maki mango, Hot Salmon, Tempura Shrimp',
+      pcs: '(52pcs.)'
     },
     {
       id: 4,
       name: 'SETS ‘Friends’',
       price: '160',
       description: 'Philadephia Classic, Philadephia Smoked, Gold Dragon, Tiger, Tuna, Yoco, Maki ell, Tempura Salmon, Tempura Srimp',
+      pcs: '(70pcs.)'
     },
     {
       id: 5,
       name: 'SETS ‘Heat’',
       price: '76',
-      description: 'Philadephia Smell, Philadephia Mango, Gold Dragon, Samurai (32pcs.)',
+      description: 'Philadephia Smell, Philadephia Mango, Gold Dragon, Samurai',
+      pcs: '(32pcs.)'
     },
     {
       id: 6,
       name: 'Sets ‘Fosso’',
       price: '200',
-      description: 'Philadephia Classic, Philadephia Smell, Gold Dragon, Yoco, California Maki mango, Maki avocado, Tuna, Ceaser, Hot Salmon, Tempura Shrimp-Salmon, Tempura Srimp, Tempura Tuna.(100pcs.)',
+      description: 'Philadephia Classic, Philadephia Smell, Gold Dragon, Yoco, California Maki mango, Maki avocado, Tuna, Ceaser, Hot Salmon, Tempura Shrimp-Salmon, Tempura Srimp, Tempura Tuna.',
+      pcs: '(100pcs.)'
     },
     {
       id: 7,
       name: 'SETS ‘Hot’',
       price: '72',
-      description: 'Hot Salmon, Hot Shrimp, Hot Eel, Hot Crab.(32pcs.)',
+      description: 'Hot Salmon, Hot Shrimp, Hot Eel, Hot Crab.',
+      pcs: '(32pcs.)'
     },
     {
       id: 8,
       name: 'SETS ‘Tempura’ ',
       price: '80',
-      description: 'Tempura Salmon, Tempura Shrimp, Tempura Tuna, Tempura Ell.(32pcs.)',
+      description: 'Tempura Salmon, Tempura Shrimp, Tempura Tuna, Tempura Ell.',
+      pcs: '(32pcs.)'
     },
   ]
 export const ArrSushi = [
@@ -86,143 +94,164 @@ export const ArrSushi = [
       id: 9,
       name: 'Philadephia Classic',
       price: '18',
-      description: 'Rice, nori, Philadelphia cheese, cucumber, salmon. (8pcs.)',
-      img: PhiladelphiaS
+      description: 'Rice, nori, Philadelphia cheese, cucumber, salmon.',
+      img: PhiladelphiaS,
+      pcs: '(8pcs.)'
     },
     {
       id: 10,
       name: 'Philadephia Smell',
       price: '19',
-      description: 'Rice, nori, Philadelphia cheese, cucumber, salmon burned. (8pcs.)',
-      img: SmellPh
+      description: 'Rice, nori, Philadelphia cheese, cucumber, salmon burned.',
+      img: SmellPh,
+      pcs: '(8pcs.)'
     },
     {
       id: 11,
       name: 'Philadephia Mango',
       price: '18',
-      description: 'Rice, nori, Philadelphia cheese, mango, salmon. (8pcs)',
-      img: Mango
+      description: 'Rice, nori, Philadelphia cheese, mango, salmon.',
+      img: Mango,
+      pcs: '(8pcs.)'
     },
     {
       id: 12,
       name: 'Philadephia Smoked',
       price: '18',
-      description: 'Rice, nori, Philadelphia cheese, cucumber, salmon. (8pcs)',
-      img: Smoked
+      description: 'Rice, nori, Philadelphia cheese, cucumber, salmon.',
+      img: Smoked,
+      pcs: '(8pcs.)'
     },
     {
       id: 13,
       name: 'Gold Dragon',
       price: '19',
-      description: 'Rice, nori, Philadelphia cheese, cucumber, shrimp, unagi sauce, tobiko caviar. (8pcs)',
-      img: GoldDragon
+      description: 'Rice, nori, Philadelphia cheese, cucumber, shrimp, unagi sauce, tobiko caviar.',
+      img: GoldDragon,
+      pcs: '(8pcs.)'
     },
     {
       id: 14,
       name: 'Samurai',
       price: '19',
-      description: 'Rice, nori, Philadelphia cheese, ell, avocado, cucumber, unagi sauce. (8pcs)',
-      img: Samurai
+      description: 'Rice, nori, Philadelphia cheese, ell, avocado, cucumber, unagi sauce.',
+      img: Samurai,
+      pcs: '(8pcs.)'
     },
     {
       id: 15,
       name: 'Tiger',
       price: '18',
-      description: 'Rice, nori, Philadelphia cheese, shrimp, cucumber, tobico, spicy sauce. (8pcs)',
-      img: Tiger
+      description: 'Rice, nori, Philadelphia cheese, shrimp, cucumber, tobico, spicy sauce.',
+      img: Tiger,
+      pcs: '(8pcs.)'
     },
     {
       id: 16,
       name: 'Tuna',
       price: '19',
-      description: 'Rice, nori, Philadelphia cheese, tuna, avocado, cucumber. (8pcs)',
-      img: Tuna
+      description: 'Rice, nori, Philadelphia cheese, tuna, avocado, cucumber.',
+      img: Tuna,
+      pcs: '(8pcs.)'
     },
     {
       id: 17,
       name: 'California',
       price: '19',
-      description: 'Rice, nori, Philadelphia cheese, crab, cucumber, tobiko.(8psc)',
-      img: California
+      description: 'Rice, nori, Philadelphia cheese, crab, cucumber, tobiko.',
+      img: California,
+      pcs: '(8pcs.)'
     },
     {
       id: 18,
       name: 'Tokyo',
       price: '19',
-      description: 'Rice, nori, tempura shrimp, cheese, mango, mango-chill sauce, sesame.(8pcs)',
+      description: 'Rice, nori, tempura shrimp, cheese, mango, mango-chill sauce, sesame.',
+      pcs: '(8pcs.)'
     },
     {
       id: 19,
       name: 'Yoco',
       price: '17',
-      description: 'Rice, nori, avocado, smoke salmon, cucumber, sesame.(8pcs)',
+      description: 'Rice, nori, avocado, smoke salmon, cucumber, sesame.',
+      pcs: '(8pcs.)'
     },
     {
       id: 20,
       name: 'California Vegan',
       price: '15',
-      description: 'Rice, nori, avocado, cucumber, sesame.(8pcs)',
+      description: 'Rice, nori, avocado, cucumber, sesame.',
+      pcs: '(8pcs.)'
     },
      {
       id: 21,
       name: 'Green Dragon',
       price: '18',
-      description: 'Rice, nori, avocado, tempura shrimp, Philadelphia cheese, tobiko.(8pcs)',
-      img: GreenDragon
+      description: 'Rice, nori, avocado, tempura shrimp, Philadelphia cheese, tobiko.',
+      img: GreenDragon,
+      pcs: '(8pcs.)'
     },
     {
       id: 22,
       name: 'Kyoto',
       price: '15',
-      description: 'Rice, nori, avocado, canned tuna, tuna flakes, cheese.(8pcs)',
+      description: 'Rice, nori, avocado, canned tuna, tuna flakes, cheese.',
+      pcs: '(8pcs.)'
     },
     {
       id: 23,
       name: 'Bonito',
       price: '17',
-      description: 'Rice, nori, cucumber, tempura salmon, sesame, cheese, souse mango and unagi.(8pcs)',
-      img: Bonito
+      description: 'Rice, nori, cucumber, tempura salmon, sesame, cheese, souse mango and unagi.',
+      img: Bonito,
+      pcs: '(8pcs.)'
     },
     {
       id: 24,
       name: 'Futomaki Salmon',
       price: '18',
-      description: 'Rice, nori, cucumber, tempura salmon, sesame, mango, avocado, lettuce. (8pcs)',
-      img: FutomakiSalmon
+      description: 'Rice, nori, cucumber, tempura salmon, sesame, mango, avocado, lettuce.',
+      img: FutomakiSalmon,
+      pcs: '(8pcs.)'
     },
     {
       id: 25,
       name: 'Futomaki Shrimp',
       price: '18',
-      description: 'Rice, nori, cucumber, tempura shrimp, avocado, lettuce, crab.(8pcs)',
+      description: 'Rice, nori, cucumber, tempura shrimp, avocado, lettuce, crab.',
+      pcs: '(8pcs.)'
     },
     {
       id: 26,
       name: 'Maki salmon',
       price: '7',
-      description: 'Rice, nori, salmon.(6pcs)',
-      img: Makisalmon
+      description: 'Rice, nori, salmon.',
+      img: Makisalmon,
+      pcs: '(6pcs.)'
     },
     {
       id: 27,
       name: 'Maki avocado',
       price: '6',
-      description: 'Rice, nori, avocado.(6pcs)',
-      img: Makiavocado
+      description: 'Rice, nori, avocado.',
+      img: Makiavocado,
+      pcs: '(6pcs.)'
     },
     {
       id: 28,
       name: 'Maki mango',
       price: '6',
-      description: 'Rice, nori, mango.(6pcs)',
-      img: Makimango
+      description: 'Rice, nori, mango.',
+      img: Makimango,
+      pcs: '(6pcs.)'
     },
     {
       id: 29,
       name: 'Maki cucumber',
       price: '5',
-      description: 'Rice, nori, cucumber.(6pcs)',
-      img: Makicucumber
+      description: 'Rice, nori, cucumber.',
+      img: Makicucumber,
+      pcs: '(6pcs.)'
     },
   ]
 
@@ -231,43 +260,49 @@ export const ArrHOT_ROLLS = [
       id: 30,
       name: 'Hot Salmon',
       price: '18',
-      description: 'Rice, nori, cheese, cheese cap, sauce, sesame, salmon. (8pcs)',
-      img: HotSalmon
+      description: 'Rice, nori, cheese, cheese cap, sauce, sesame, salmon.',
+      img: HotSalmon,
+      pcs: '(8pcs.)'
     },
     {
       id: 31,
       name: 'Hot Eel',
       price: '19',
-      description: 'Rice, nori, cheese, cheese cap, sauce, sesame, ell, tuna shavings. (8pcs)',
-      img: HotSalmon
+      description: 'Rice, nori, cheese, cheese cap, sauce, sesame, ell, tuna shavings.',
+      img: HotSalmon,
+      pcs: '(8pcs.)'
     },
     {
       id: 32,
       name: 'Hot Shrimp',
       price: '18',
       description: 'Rice, nori, cheese, cheese cap, sauce, shrimp.',
-      img: HotSalmon
+      img: HotSalmon,
+      pcs: '(8pcs.)'
     },
     {
       id: 33,
       name: 'Ceasar',
       price: '18',
-      description: 'Rice, nori, cheese, cheese cap, sauce, chicken, mango, sesame, lettuce.(8pcs)',
-      img: HotSalmon
+      description: 'Rice, nori, cheese, cheese cap, sauce, chicken, mango, sesame, lettuce.',
+      img: HotSalmon,
+      pcs: '(8pcs.)'
     },
     {
       id: 34,
       name: 'Hot Crab',
       price: '18',
-      description: 'Rice, nori, cheese, cheese cap, sauce, crab.(8pcs)',
-      img: HotSalmon
+      description: 'Rice, nori, cheese, cheese cap, sauce, crab.',
+      img: HotSalmon,
+      pcs: '(8pcs.)'
     },
     {
       id: 35,
       name: 'Hot Crab-Shrimp',
       price: '20',
-      description: 'Rice, nori, cheese, cheese cap, sauce, crab, shrimp.(8pcs)',
-      img: HotSalmon
+      description: 'Rice, nori, cheese, cheese cap, sauce, crab, shrimp.',
+      img: HotSalmon,
+      pcs: '(8pcs.)'
     },
   ]
 export const ArrTEMPURA_ROLLS = [
@@ -275,41 +310,47 @@ export const ArrTEMPURA_ROLLS = [
       id: 36,
       name: 'Tempura Salmon',
       price: '20',
-      description: 'Rice, nori, cheese, salmon, avocado, tempura, souse unagi,souse shriracha. (8pcs)',
-      img: TempuraSalmon
+      description: 'Rice, nori, cheese, salmon, avocado, tempura, souse unagi,souse shriracha.',
+      img: TempuraSalmon,
+      pcs: '(8pcs.)'
     },
     {
       id: 37,
       name: 'Tempura Shrimp',
       price: '20',
-      description: 'Rice, nori, cheese, shrimp, avocado, tempura, souse unagi,souse shriracha. (8pcs)',
-      img: TempuraShrimp
+      description: 'Rice, nori, cheese, shrimp, avocado, tempura, souse unagi,souse shriracha.',
+      img: TempuraShrimp,
+      pcs: '(8pcs.)'
     },
     {
       id: 38,
       name: 'Tempura Tuna',
       price: '19',
-      description: 'Rice, nori, cheese, tuna, avocado, tempura, souse shriracha. (8pcs)',
+      description: 'Rice, nori, cheese, tuna, avocado, tempura, souse shriracha.',
+      pcs: '(8pcs.)'
     },
     {
       id: 39,
       name: 'Tempura ELL',
       price: '20',
-      description: 'Rice, nori, cheese, ell, avocado, tempura, souse unagi,souse shriracha. (8pcs)',
-      img: TempuraELL
+      description: 'Rice, nori, cheese, ell, avocado, tempura, souse unagi,souse shriracha.',
+      img: TempuraELL,
+      pcs: '(8pcs.)'
     },
     {
       id: 40,
       name: 'Tempura Cheese',
       price: '20',
-      description: 'Rice, nori, cheese, tempura, pineapple, driep tomatoes , sauce mango .(8pcs)',
+      description: 'Rice, nori, cheese, tempura, pineapple, driep tomatoes , sauce mango .',
+      pcs: '(8pcs.)'
     },
     {
       id: 41,
       name: 'Tempura Shrimp-Salmon',
       price: '22',
-      description: 'Rice, nori, cheese, salmon, shrimp, tempura, souse unagi,souse shriracha. (8pcs)',
-      img: TempuraShrimpSalmon
+      description: 'Rice, nori, cheese, salmon, shrimp, tempura, souse unagi,souse shriracha.',
+      img: TempuraShrimpSalmon,
+      pcs: '(8pcs.)'
     },
   ]
 export const ArrDRINKS = [
@@ -343,18 +384,21 @@ export const ArrReccomended = [
     id: 45,
     name: 'SETS ‘Family’',
     price: '100',
-    description: 'Philadephia Classic, California, Green Dragon, Maki salmon, Maki mango, Hot Salmon, Tempura Shrimp (52pcs.)',
+    description: 'Philadephia Classic, California, Green Dragon, Maki salmon, Maki mango, Hot Salmon, Tempura Shrimp',
+    pcs: '(52pcs.)'
   },
   {
     id: 46,
     name: 'SETS ‘Heat’',
     price: '76',
-    description: 'Philadephia Smell, Philadephia Mango, Gold Dragon, Samurai (32pcs.)',
+    description: 'Philadephia Smell, Philadephia Mango, Gold Dragon, Samurai',
+    pcs: '(32pcs.)'
   },
   {
     id: 47,
     name: 'SETS ‘Friends’',
     price: '160',
-    description: 'Philadephia Classic, Philadephia Smoked, Gold Dragon, Tiger, Tuna, Yoco, Maki ell, Tempura Salmon, Tempura Srimp (70pcs.)',
+    description: 'Philadephia Classic, Philadephia Smoked, Gold Dragon, Tiger, Tuna, Yoco, Maki ell, Tempura Salmon, Tempura Srimp',
+    pcs: '(70pcs.)'
   }
 ]
