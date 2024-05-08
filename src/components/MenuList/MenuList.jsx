@@ -55,7 +55,7 @@ const MenuList = ({ type, title, menuList }) => {
             <h2 className={`${css.title} ${type === 'order' && css.marginNone}`}>{title}</h2>
             <ul className={css.setsUl}>
                 {menuList.length > 0 ? menuList.map((a, index) => {
-                    const { id, name, price, description, img } = a;
+                    const { id, name, price, description, img, pcs } = a;
                     return <li key={id} className={css.item}>
                         {img !== undefined ?
                             <img src={img} alt={img} width={'100%'}  /> :
@@ -67,7 +67,10 @@ const MenuList = ({ type, title, menuList }) => {
                             </div>
                         }
                         <div className={css.praysBox}>
-                            <span className={css.name}>{name}</span>
+                            <div>
+                                <span className={css.name}>{name}</span>
+                                <span >{pcs}</span>
+                            </div>
                             <span className={css.prays}>{price}$</span>
                         </div>
                         <div className={css.contentBox}>
