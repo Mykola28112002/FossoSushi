@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FossoSushi/static/css/main.3a82a326.css",
-    "main.js": "/FossoSushi/static/js/main.f5b20a53.js",
+    "main.css": "/FossoSushi/static/css/main.b445b97e.css",
+    "main.js": "/FossoSushi/static/js/main.969bac22.js",
     "static/js/453.ed3810f9.chunk.js": "/FossoSushi/static/js/453.ed3810f9.chunk.js",
     "static/media/Hero.jpg": "/FossoSushi/static/media/Hero.22994ada5dd7da17699c.jpg",
     "static/media/Samurai.jpg": "/FossoSushi/static/media/Samurai.4b3d2b74536900f349fe.jpg",
@@ -31,12 +31,12 @@
     "static/media/OrangeJuice.jpg": "/FossoSushi/static/media/OrangeJuice.41d5fe2fd5ece2ea013c.jpg",
     "index.html": "/FossoSushi/index.html",
     "static/media/Down.svg": "/FossoSushi/static/media/Down.804e849e82b12430abec.svg",
-    "main.3a82a326.css.map": "/FossoSushi/static/css/main.3a82a326.css.map",
-    "main.f5b20a53.js.map": "/FossoSushi/static/js/main.f5b20a53.js.map",
+    "main.b445b97e.css.map": "/FossoSushi/static/css/main.b445b97e.css.map",
+    "main.969bac22.js.map": "/FossoSushi/static/js/main.969bac22.js.map",
     "453.ed3810f9.chunk.js.map": "/FossoSushi/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a82a326.css",
-    "static/js/main.f5b20a53.js"
+    "static/css/main.b445b97e.css",
+    "static/js/main.969bac22.js"
   ]
 }
