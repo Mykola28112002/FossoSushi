@@ -35,6 +35,7 @@ const DeliveryForm = ({ formData, setFormData, handleSubmit }) => {
   };
 
   const handleFormSubmit = (e) => {
+    e.preventDefault()
     if (validateForm()) {
       handleSubmit(e);
     }
