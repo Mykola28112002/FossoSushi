@@ -18,6 +18,7 @@ function ModalBy() {
         isModalByOpen: false
     }));
     navigate('/order');
+    setTimeout(() => window.scrollTo(0, 0), 100);
   };
 
   return (
