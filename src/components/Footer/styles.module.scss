@@ -65,13 +65,16 @@
         overflow: hidden;
         margin-bottom: 78px;
     }
-
-    .line {
-        border: 0.5px solid #DA5541;
-        position: absolute;
-        width: 100%;
-        left: 0;
+    .lineBox {
+        position: relative;
+        .line {
+            border: 0.5px solid #DA5541;
+            position: absolute;
+            width: 100%;
+            left: 0;
+        }
     }
+    
 
     .textFooter {
         font-size: 14px;

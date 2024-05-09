@@ -61,7 +61,9 @@ const Footer = () => {
         <div className={css.cartBox}>
           <div><MapComponent /></div>
         </div>
-        <div className={css.line}></div>
+        <div className={css.lineBox}>
+          <div className={css.line}></div>
+        </div>
         <span className={css.textFooter}>(c) Fosso_sushi_studio 2024. All rights reserved.</span>
       </footer>
     );
