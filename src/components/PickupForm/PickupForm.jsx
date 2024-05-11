@@ -9,7 +9,6 @@ const DeliveryForm = ({ formData, setFormData, handleSubmit }) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-
   // Функція для валідації форми
   const validateForm = () => {
     const newErrors = {};
